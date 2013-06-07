@@ -22,11 +22,23 @@ typedef struct unit_struct {
 	int time;          //time, in game seconds, it takes to build
 } Unit;
 
-Unit terranUnits[] = {
+Unit terranHOTS[] = {
 //name        ,mnls,  gas, time
-{"SCV"        ,  50,    0,  17 },
-{"Marine"     ,  50,    0,  25 }, 0};
-
+{"SCV"           ,  50,    0,  17 },
+{"Marine"        ,  50,    0,  25 },
+{"Marauder"      , 100,   25,  30 },
+{"Reaper"        ,  50,   50,  40 },
+{"Ghost"         , 200,  100,  40 },
+{"Hellion"       , 100,    0,  30 },
+{"Widow Mine"    ,  75,   25,  40 },
+{"Siege Tank"    , 150,  125,  45 },
+{"Viking"        , 150,   75,  42 },
+{"Medivac"       , 100,  100,  42 },
+{"Banshee"       , 150,  100,  60 },
+{"Raven"         , 100,  200,  60 },
+{"Thor"          , 300,  200,  60 },
+{"Battlecruiser" , 400,  300,  90 },
+{0}};
 
 
 #endif
