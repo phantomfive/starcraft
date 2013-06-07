@@ -31,7 +31,7 @@ typedef struct unit_struct {
 } Unit;
 
 Unit terranHOTS[] = {
-//name        ,mnls,  gas, time
+//name           ,mnls,  gas, time
 {"SCV"           ,  50,    0,  17 },
 {"Marine"        ,  50,    0,  25 },
 {"Marauder"      , 100,   25,  30 },
