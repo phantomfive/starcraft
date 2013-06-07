@@ -16,6 +16,7 @@ static void printUnitTableFlexible(const Unit *table, int gasPerMinute,
                                    int mineralsPerMinute) {
 	const Unit *u;
 
+	printf("+------------------------------------------------------------------------------------------------------------+\n");
 	for(u = &table[0];strlen(u->name)!=0;u++)  {
 
 		//First calculate all the values we need
@@ -61,6 +62,7 @@ static void printUnitTableFlexible(const Unit *table, int gasPerMinute,
 		       u->name, unitsPerMinute, buildingsRequired, gasLeftOver,
 				 mnsLeftOver);
 	}
+	printf("+------------------------------------------------------------------------------------------------------------+\n");
 }
 
 static void printUnitTable(const Unit *table) {
@@ -68,7 +70,7 @@ static void printUnitTable(const Unit *table) {
 	printf("---->Table with single base saturated (24 workers):\n");
 	printUnitTableFlexible(table, GAS_PER_GEYSER * 2, MINERALS_PER_BASE);
 
-	printf("\n\n---->Table with single base semi-saturaed (16 workers):\n");
+	printf("\n\n---->Table with single base semi-saturated (16 workers):\n");
 	printUnitTableFlexible(table, GAS_PER_GEYSER * 2, MINERALS_PER_SMALL_BASE);
 
 }
