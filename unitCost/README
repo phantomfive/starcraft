@@ -1,0 +1,57 @@
+Sample Output:
+Calculates how many units can be created on a single base.
+First calculates the number of that unit that can be created, then it
+calculates how many buildings you'll need if you want to spend all your
+money. Both these tables assume you have six workers mining gas, in addition
+to the workers mining minerals.
+
+This is useful because it lets you plan your game, like this:
+1) Plan your ideal unit composition
+2) Plan what buildings you need to create to get that composition
+3) Build the buildings you need as fast as possible
+4) Pump out units like a madman
+5) Win.
++--------+
+| TERRAN |
++--------+
+---->Table with single base saturated (24 workers):
+| SCV             | per minute 16.32 | buildings required  4.62 | gas left over 228 | minerals left over   0 |
+| Marine          | per minute 16.32 | buildings required  6.80 | gas left over 228 | minerals left over   0 |
+| Marauder        | per minute  8.16 | buildings required  4.08 | gas left over  24 | minerals left over   0 |
+| Reaper          | per minute  4.56 | buildings required  3.04 | gas left over   0 | minerals left over 588 |
+| Ghost           | per minute  2.28 | buildings required  1.52 | gas left over   0 | minerals left over 360 |
+| Hellion         | per minute  8.16 | buildings required  4.08 | gas left over 228 | minerals left over   0 |
+| Widow Mine      | per minute  9.12 | buildings required  6.08 | gas left over   0 | minerals left over 132 |
+| Siege Tank      | per minute  1.82 | buildings required  1.37 | gas left over   0 | minerals left over 542 |
+| Viking          | per minute  3.04 | buildings required  2.13 | gas left over   0 | minerals left over 360 |
+| Medivac         | per minute  2.28 | buildings required  1.60 | gas left over   0 | minerals left over 588 |
+| Banshee         | per minute  2.28 | buildings required  2.28 | gas left over   0 | minerals left over 474 |
+| Raven           | per minute  1.14 | buildings required  1.14 | gas left over   0 | minerals left over 702 |
+| Thor            | per minute  1.14 | buildings required  1.14 | gas left over   0 | minerals left over 474 |
+| Battlecruiser   | per minute  0.76 | buildings required  1.14 | gas left over   0 | minerals left over 512 |
+
+
+---->Table with single base semi-saturaed (16 workers):
+| SCV             | per minute 13.20 | buildings required  3.74 | gas left over 228 | minerals left over   0 |
+| Marine          | per minute 13.20 | buildings required  5.50 | gas left over 228 | minerals left over   0 |
+| Marauder        | per minute  6.60 | buildings required  3.30 | gas left over  63 | minerals left over   0 |
+| Reaper          | per minute  4.56 | buildings required  3.04 | gas left over   0 | minerals left over 432 |
+| Ghost           | per minute  2.28 | buildings required  1.52 | gas left over   0 | minerals left over 204 |
+| Hellion         | per minute  6.60 | buildings required  3.30 | gas left over 228 | minerals left over   0 |
+| Widow Mine      | per minute  8.80 | buildings required  5.87 | gas left over   7 | minerals left over   0 |
+| Siege Tank      | per minute  1.82 | buildings required  1.37 | gas left over   0 | minerals left over 386 |
+| Viking          | per minute  3.04 | buildings required  2.13 | gas left over   0 | minerals left over 204 |
+| Medivac         | per minute  2.28 | buildings required  1.60 | gas left over   0 | minerals left over 432 |
+| Banshee         | per minute  2.28 | buildings required  2.28 | gas left over   0 | minerals left over 318 |
+| Raven           | per minute  1.14 | buildings required  1.14 | gas left over   0 | minerals left over 546 |
+| Thor            | per minute  1.14 | buildings required  1.14 | gas left over   0 | minerals left over 318 |
+| Battlecruiser   | per minute  0.76 | buildings required  1.14 | gas left over   0 | minerals left over 356 |
++---------+
+| PROTOSS |
++---------+
+ -> Coming Soon <-
+ +------+
+ | ZERG |
+ +------+
+  -> Coming Soon <-
+ 

@@ -6,6 +6,8 @@
  *                                                                           *
  * Copyright 2013 A Thompson, Usable under the terms of the GPL 3 or greater *
  *****************************************************************************/
+#include <stdlib.h>
+#include "common.h"
 
 //Usually, with three workers you can get 114 gas per game minute
 #define GAS_PER_GEYSER 114
@@ -14,6 +16,12 @@
 //With 16 workers, you can get 660 minerals per base
 #define MINERALS_PER_BASE       816
 #define MINERALS_PER_SMALL_BASE 660
+
+typedef enum race_e {
+	TERRAN,
+	ZERG,
+	PROTOSS
+} Race;
 
 typedef struct unit_struct {
 	char name[100];    //name of the unit
@@ -38,7 +46,7 @@ Unit terranHOTS[] = {
 {"Raven"         , 100,  200,  60 },
 {"Thor"          , 300,  200,  60 },
 {"Battlecruiser" , 400,  300,  90 },
-{0}};
+{"",0,0,0}};
 
 
 #endif

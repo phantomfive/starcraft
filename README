@@ -2,3 +2,5 @@ SC2
 ----
 Various utilities for use with the game Starcraft 2
 
+UnitCost -- Calculates how many units can be made per second
+
