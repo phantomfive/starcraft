@@ -1,3 +1,8 @@
+The source for the input data here comes from:
+http://wiki.teamliquid.net/starcraft2/Terran_Unit_Statistics
+and
+http://wiki.teamliquid.net/starcraft2/index.php?title=Mining_Minerals&oldid=512374&diff=cur
+
 Sample Output:
 Calculates how many units can be created on a single base.
 First calculates the number of that unit that can be created, then it
