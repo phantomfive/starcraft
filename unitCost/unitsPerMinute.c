@@ -100,10 +100,18 @@ static void parseCommandLineArgs(int argc, char**argv) {
 }
 
 const char * explanation =
-"Calculates how many units can be created on a single base.\n"
-"First calculates the number of that unit that can be created, then it\n"
-"calculates how many buildings you'll need if you want to spend all your\n"
-"money. Both these tables assume you have six workers mining gas\n";
+"Calculates how many units can be created on a single base.\n\
+First calculates the number of that unit that can be created, then it\n\
+calculates how many buildings you'll need if you want to spend all your\n\
+money. Both these tables assume you have six workers mining gas, in addition\n\
+to the workers mining minerals.\n\
+\n\
+This is useful because it lets you plan your game, like this:\n\
+1) Plan your ideal unit composition\n\
+2) Plan what buildings you need to create to get that composition\n\
+3) Build the buildings you need as fast as possible\n\
+4) Pump out units like a madman\n\
+5) Win.\n\n";
 
 int main(int argc, char **argv) {
 
