@@ -91,7 +91,7 @@ static void printZergTable() {
 	printf("+------+\n");
 	printf("| ZERG |\n");
 	printf("+------+\n");
-	printf(" -> Coming Soon <-\n");
+	printUnitTable(zergHOTS);
 }
 
 
@@ -120,8 +120,8 @@ int main(int argc, char **argv) {
 	printf("%s", explanation);
 
 	if(shouldPrintTerranTable)  printTerranTable ();
-	if(shouldPrintProtossTable) printProtossTable();
 	if(shouldPrintZergTable)    printZergTable   ();
+	if(shouldPrintProtossTable) printProtossTable();
 
 	return 0;
 }

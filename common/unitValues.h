@@ -17,6 +17,9 @@
 #define MINERALS_PER_BASE       816
 #define MINERALS_PER_SMALL_BASE 660
 
+//Zerg is additionally limited by number of hatcheries
+//define LARVAE_PER_BASE_PER_SECOND 15  #who knows? Have to calculate it
+
 typedef enum race_e {
 	TERRAN,
 	ZERG,
@@ -48,6 +51,22 @@ Unit terranHOTS[] = {
 {"Battlecruiser" , 400,  300,  90 },
 {"",0,0,0}};
 
+Unit zergHOTS[] = {
+//name
+{"Drone"         ,  50,    0,  17 },
+{"Queen"         , 150,    0,  50 },
+{"Zergling"      ,  25,    0,  24 },
+{"Baneling"      ,  50,   25,  44 },
+{"Roach"         ,  75,   75,  27 },
+{"Hydralisk"     , 100,   50,  33 },
+{"Infestor"      , 100,  150,  50 },
+{"Swarm Host"    , 200,  100,  40 },
+{"Ultralisk"     , 300,  200,  55 },
+{"Mutalisk"      , 100,  100,  33 },
+{"Corruptor"     , 150,  100,  40 },
+{"Viper"         , 100,  200,  40 },
+{"Brood Lord"    , 300,  250,  74 },
+{"",0,0,0}};
 
 #endif
 
