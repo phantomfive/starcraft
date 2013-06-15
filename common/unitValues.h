@@ -52,7 +52,7 @@ Unit terranHOTS[] = {
 {"",0,0,0}};
 
 Unit zergHOTS[] = {
-//name
+//name           ,mlns,  gas, time
 {"Drone"         ,  50,    0,  17 },
 {"Queen"         , 150,    0,  50 },
 {"Zergling"      ,  25,    0,  24 },
