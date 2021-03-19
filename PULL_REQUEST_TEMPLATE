@@ -1,18 +1,2 @@
-### Description of change
-
-**Jira/Bugsnag issue:**
-
-***
-
-**Customer impact (if significant):** N/A
-
-**Security impact (if significant):** N/A
-
-**Script Requirements**
-- [ ] I verify that scripts in this pull request adhere to the [script execution guidelines](https://upstartnetwork.atlassian.net/wiki/spaces/CS/pages/1106543705/Guidelines+for+writing+script+execution+UI+compatible+scripts).
-
-I verify that this pull request:
-
-- [ ] model and schema changes are backwards compatible with current production (see also: [Zero-Downtime Migrations](https://upstartnetwork.atlassian.net/wiki/x/k4ClBQ)).
-- [ ] encrypts all restricted or prohibited data (SSNs, bank account info, DOB, address, phone). Stores no restricted or prohibited data in Redis
-- [ ] has Infosec approval for any new 3rd-party software. CISO or their designee must explicitly approve in this PR, and #eng-deps Slack channel must be notified with 24 hours notice. See [guidelines](https://upstartnetwork.atlassian.net/wiki/spaces/IS/pages/107577425/Using+Third+Party+Packages)
+For information on deploys and rollbacks, check Confluence:
+https://upstartnetwork.atlassian.net/wiki/spaces/ENG/pages/1127974641/Deploys+Rollbacks+Migrations
